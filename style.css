@@ -1,0 +1,118 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: 1.1em;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+#title {
+  background-color: rgb(61, 61, 61);
+  font-size: 1.1em;
+  color: white;
+
+  border: none;
+  border-radius: 3px;
+  font-weight: normal;
+  font-size: 1.75em;
+}
+
+#blurb {
+  background-color: rgba(255, 255, 255, 0.386);
+  text-align: center;
+  margin: 1em auto 1em auto;
+  width: 500px;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+#visual-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+}
+
+#array-visual {
+  margin: 1em;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+
+  background-size: cover;
+  width: 100%;
+  padding: 1em;
+  color: black;
+}
+
+button {
+  margin-top: 1em;
+  background-color: rgb(8, 74, 3);
+  font-size: 1.1em;
+  color: white;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  border: none;
+  border-radius: 3px;
+  font-weight: normal;
+}
+
+rect:hover,
+circle:hover,
+text.circle:hover,
+text.rect:hover {
+  cursor: pointer;
+}
+
+.subtext {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.copyright {
+  margin-top: auto;
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--color-dark--1);
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.twitter-link:link,
+.twitter-link:visited {
+  color: rgb(58, 21, 180);
+  transition: all 0.2s;
+}
+
+.twitter-link:hover,
+.twitter-link:active {
+  color: rgb(14, 160, 131);
+}
